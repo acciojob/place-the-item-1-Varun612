@@ -1,2 +1,21 @@
-
-/* Your CSS Code here. */
+.item {
+	width:15vw;
+	height:15vw;
+	color: black;
+	font-size: 10vw;
+}
+.holder {
+	display: flex;
+	justify-content: space-between;
+	/* column-gap: 5px; */
+	flex-wrap: wrap;
+}
+.div1 {
+	background-color: green;
+}
+.div2 {
+	background-color: red;
+}
+.div3 {
+	background-color: blue;
+}
